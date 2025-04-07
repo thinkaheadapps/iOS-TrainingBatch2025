@@ -3,5 +3,6 @@
     <pages>
         <page name='SimpleValues'/>
         <page name='ArrayDictionary'/>
+        <page name='ForLoopPractice'/>
     </pages>
 </playground>
