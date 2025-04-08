@@ -56,3 +56,65 @@ unit4A?.tenant = john
 // Attempting to break references
 john = nil
 unit4A = nil
+
+/*
+In this example, even after setting both john and unit4A to nil, neither object will be deallocated because they maintain strong references to each other. The deinit methods will never be called.
+Resolving Strong Reference Cycles:
+There are two ways to resolve this:
+*/
+
+class Person {
+    let name: String
+    var apartment: Apartment?
+    
+    init(name: String) {
+        self.name = name
+        print("\(name) is being initialized")
+    }
+    
+    deinit {
+        print("\(name) is being deinitialized")
+    }
+}
+
+class Apartment {
+    let unit: String
+    weak var tenant: Person?  // Using weak reference
+    
+    init(unit: String) {
+        self.unit = unit
+        print("Apartment \(unit) is being initialized")
+    }
+    
+    deinit {
+        print("Apartment \(unit) is being deinitialized")
+    }
+}
+
+/*
+Using unowned references (when you're sure the reference will never be nil):
+
+*/
+
+class Customer {
+    let name: String
+    var card: CreditCard?
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    deinit { print("\(name) is being deinitialized") }
+}
+
+class CreditCard {
+    let number: UInt64
+    unowned let customer: Customer  // Using unowned reference
+    
+    init(number: UInt64, customer: Customer) {
+        self.number = number
+        self.customer = customer
+    }
+    
+    deinit { print("Card #\(number) is being deinitialized") }
+}
