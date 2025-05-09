@@ -2,6 +2,8 @@
 <playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='IntroductionToProgramming'/>
-        <page name='Untitled Page'/>
+        <page name='Exercise Operators and data types'/>
+        <page name='Untitled Page 2'/>
+        <page name='Using operators in Swift'/>
     </pages>
 </playground>
