@@ -31,7 +31,8 @@ print("It is = \(time) on \(day)")
 let timezone = "IST"
 
 //Step 8: Update the current time
-time += \(timezone)
+time = time + " " + timezone
+//time += \(timezone)
 
 //Step 9: Print the updated time
 print("It is \(time)")
@@ -40,7 +41,7 @@ print("It is \(time)")
 print("It is \(time) on \(day)")
 
 //Step 11: Determine the short name for a given day
-let shortDay = day.hasPrefix(3)
+let shortDay = String(day.prefix(3))
 
 //Step 12: Print the short name of the current day
 print("Today is \(shortDay)")

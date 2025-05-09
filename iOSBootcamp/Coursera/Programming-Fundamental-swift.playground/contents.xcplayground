@@ -6,5 +6,6 @@
         <page name='Strings in Swift'/>
         <page name='Using operators in Swift'/>
         <page name='Exercise Working with strings in Swift'/>
+        <page name='Booleans and logical operators'/>
     </pages>
 </playground>
