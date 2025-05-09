@@ -9,5 +9,7 @@
         <page name='Booleans and logical operators'/>
         <page name='Switch statements'/>
         <page name='Exercise Work with conditional statements in Swift'/>
+        <page name='Self-review Work with conditional statements in Swift'/>
+        <page name='Basic loops in Swift'/>
     </pages>
 </playground>
