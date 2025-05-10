@@ -11,5 +11,6 @@
         <page name='Exercise Work with conditional statements in Swift'/>
         <page name='Self-review Work with conditional statements in Swift'/>
         <page name='Basic loops in Swift'/>
+        <page name='Nested loops break and continue'/>
     </pages>
 </playground>
