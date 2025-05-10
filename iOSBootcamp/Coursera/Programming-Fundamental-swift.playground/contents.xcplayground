@@ -14,5 +14,6 @@
         <page name='Nested loops break and continue'/>
         <page name='Knowledge check Loops'/>
         <page name='Exercise Using conditions and loops'/>
+        <page name='Introduction to optionals'/>
     </pages>
 </playground>
