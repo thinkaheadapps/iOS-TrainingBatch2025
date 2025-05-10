@@ -17,5 +17,6 @@
         <page name='Introduction to optionals'/>
         <page name='Optionals'/>
         <page name='Exercise Work with optionals in Swift '/>
+        <page name='Arrays'/>
     </pages>
 </playground>
