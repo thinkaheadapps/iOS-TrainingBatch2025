@@ -15,5 +15,7 @@
         <page name='Knowledge check Loops'/>
         <page name='Exercise Using conditions and loops'/>
         <page name='Introduction to optionals'/>
+        <page name='Optionals'/>
+        <page name='Exercise Work with optionals in Swift '/>
     </pages>
 </playground>
