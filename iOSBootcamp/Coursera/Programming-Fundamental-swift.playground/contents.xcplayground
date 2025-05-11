@@ -9,9 +9,9 @@
         <page name='Booleans and logical operators'/>
         <page name='Switch statements'/>
         <page name='Exercise Work with conditional statements in Swift'/>
-        <page name='Self-review Work with conditional statements in Swift'/>
         <page name='Basic loops in Swift'/>
         <page name='Nested loops break and continue'/>
+        <page name='Self-review Work with conditional statements in Swift'/>
         <page name='Knowledge check Loops'/>
         <page name='Exercise Using conditions and loops'/>
         <page name='Introduction to optionals'/>
@@ -20,5 +20,11 @@
         <page name='Arrays'/>
         <page name='Exercise Arrays in Swift'/>
         <page name='Using different types with arrays'/>
+        <page name='Tuples'/>
+        <page name='Exercise Tuples'/>
+        <page name='Solution Tuples'/>
+        <page name='Dictionaries'/>
+        <page name='Exercise Dictionaries in Swift'/>
+        <page name='Solution Dictionaries in Swift'/>
     </pages>
 </playground>

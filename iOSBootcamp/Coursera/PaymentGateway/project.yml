@@ -1,0 +1,15 @@
+name: PaymentGateway
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: 15.0
+targets:
+  PaymentGateway:
+    type: application
+    platform: iOS
+    sources:
+      - PaymentGateway
+    settings:
+      base:
+        INFOPLIST_FILE: PaymentGateway/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.paymentgateway 
