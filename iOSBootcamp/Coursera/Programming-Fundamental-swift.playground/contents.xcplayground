@@ -34,5 +34,11 @@
         <page name='More function examples '/>
         <page name='Introduction to closures'/>
         <page name='Using closures to sort an array'/>
+        <page name='Exercise Practice using closures'/>
+        <page name='Use functions to modularize a program'/>
+        <page name='Create a structure with a mutating method'/>
+        <page name='Classes in Swift'/>
+        <page name='Reference types and value types'/>
+        <page name='Creating classes with stored and computed properties'/>
     </pages>
 </playground>

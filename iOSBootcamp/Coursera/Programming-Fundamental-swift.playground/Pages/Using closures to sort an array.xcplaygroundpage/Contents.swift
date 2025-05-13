@@ -16,10 +16,15 @@ let letters = ["A","Y","X","O","E"]
 let aResult = letters.sorted(by: forward)
 print(aResult)
 
-let rResult = letters.sorted(by: {(s1:String,s2:String)->Bool in
-   return s1 < s2
-})
+//let rResult = letters.sorted(by: {(s1:String,s2:String)->Bool in
+//   return s1 < s2
+//})
 
+//let rResult = letters.sorted(by: {(s1,s2) in
+//   return s1 < s2
+//})
+
+let rResult = letters.sorted(by: {$0 < $1})
 print(rResult)
 
 
