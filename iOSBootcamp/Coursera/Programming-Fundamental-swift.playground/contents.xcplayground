@@ -17,8 +17,8 @@
         <page name='Introduction to optionals'/>
         <page name='Optionals'/>
         <page name='Exercise Work with optionals in Swift '/>
-        <page name='Arrays'/>
         <page name='Exercise Arrays in Swift'/>
+        <page name='Arrays'/>
         <page name='Using different types with arrays'/>
         <page name='Tuples'/>
         <page name='Exercise Tuples'/>
@@ -26,5 +26,13 @@
         <page name='Dictionaries'/>
         <page name='Exercise Dictionaries in Swift'/>
         <page name='Solution Dictionaries in Swift'/>
+        <page name='Using loops with collection types'/>
+        <page name='WeeklyTemperatures'/>
+        <page name='Exercise Using loops with collection types '/>
+        <page name='Functions examples'/>
+        <page name='Exercise Practice using functions '/>
+        <page name='More function examples '/>
+        <page name='Introduction to closures'/>
+        <page name='Using closures to sort an array'/>
     </pages>
 </playground>
