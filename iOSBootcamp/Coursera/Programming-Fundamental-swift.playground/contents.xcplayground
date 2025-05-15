@@ -40,5 +40,14 @@
         <page name='Classes in Swift'/>
         <page name='Reference types and value types'/>
         <page name='Creating classes with stored and computed properties'/>
+        <page name='Exercise Create classes with stored and computed properties'/>
+        <page name='Difference between Struct and Class'/>
+        <page name='Create the banking system'/>
+        <page name='Define the bank account operations'/>
+        <page name='Manage the bank account'/>
+        <page name='Solution Manage the bank account'/>
+        <page name='Exam1'/>
+        <page name='Part 3 Manage the bank account '/>
+        <page name='Using conditions and loops'/>
     </pages>
 </playground>
